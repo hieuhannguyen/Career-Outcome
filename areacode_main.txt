@@ -1,0 +1,51 @@
+area_code	area_name	display_level	selectable	sort_sequence
+0110	New England	1	T	10
+0120	Middle Atlantic	1	T	11
+0230	East North Central	1	T	23
+0240	West North Central	1	T	24
+0350	South Atlantic	1	T	37
+0360	East South Central	1	T	38
+0370	West South Central	1	T	39
+0480	Mountain	1	T	55
+0490	Pacific	1	T	56
+A104	Pittsburgh, PA	1	T	9
+A210	Cleveland-Akron, OH	1	T	19
+A212	Milwaukee-Racine, WI	1	T	20
+A213	Cincinnati, OH	1	T	21
+A213	Hamilton, KY	1	T	21
+A213	Hamilton, IN	1	T	21
+A214	Kansas City, MO	1	T	22
+A214	Kansas City, KS	1	T	22
+A311	Washington, DC	1	T	36
+A311	Baltimore, MD	1	T	36
+A421	Los Angeles-Riverside-Orange County, CA	1	T	53
+A425	Portland, OR	1	T	54
+A425	Salem, WA	1	T	54
+S11A	Boston-Cambridge-Newton, MA	1	T	8
+S12A	New York, NY	1	T	6
+S12A	Newark, NJ	1	T	6
+S12A	Jersey City, PA	1	T	6
+S12B	Philadelphia, PA	1	T	7
+S12B	Camden, NJ	1	T	7
+S12B	Wilmington, DE	1	T	7
+S23A	Chicago-Naperville-Elgin, IL	1	T	15
+S23B	Detroit-Warren-Dearborn, MI	1	T	16
+S24A	Minneapolis-St.Paul-Bloomington, MN	1	T	17
+S24B	St. Louis, MO	1	T	18
+S24B	St. Louis, IL	1	T	18
+S35A	Arlington-Alexandria, VA	1	T	34
+S35B	Miami-Fort Lauderdale-West Palm Beach, FL	1	T	32
+S35C	Atlanta-Sandy Springs-Roswell, GA	1	T	29
+S35D	Tampa-St. Petersburg-Clearwater, FL	1	T	33
+S35E	Baltimore-Columbia-Towson, MD	1	T	35
+S37A	Dallas-Fort Worth-Arlington, TX	1	T	30
+S37B	Houston-The Woodlands-Sugar Land, TX	1	T	31
+S48A	Phoenix-Mesa-Scottsdale, AZ	1	T	49
+S48B	Denver-Aurora-Lakewood, CO	1	T	45
+S49A	Los Angeles-Long Beach-Anaheim, CA	1	T	47
+S49B	San Francisco-Oakland-Hayward, CA	1	T	51
+S49C	Riverside-San Bernardino-Ontario, CA	1	T	48
+S49D	Seattle-Tacoma-Bellevue, WA	1	T	52
+S49E	San Diego-Carlsbad, CA	1	T	50
+S49F	Honolulu, HI 	1	T	46
+S49G	Anchorage-Juneau-Fairbanks, AK	1	T	44

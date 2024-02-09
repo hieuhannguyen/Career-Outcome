@@ -2,9 +2,14 @@
 ## A collaborative final project for Python II
 
 ### Abstract
+This is a program that leverages web scraping and text mining techniques to compile relevant data from diverse sources into a comprehensive career report for job titles of interest to Heinz students.
 
+The program gives the user three options:
+1.	List employers that hired from Heinz from 2021 to 2023 based on a student’s interested job title.
+2.	Report employment projection estimate and visa sponsorship approval rates for a job title. 
+3.	Compare cost of living between 2 cities in the U.S. (to help students estimate relocation differences).
 
-
+I exclusively coded main.py and CPI.py
 
 ### Additional Notes
 1.	What are the CSVs and text files?

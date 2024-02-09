@@ -17,11 +17,19 @@ The program used two special Python libraries:
 
 We also use common libraries such as pandas, regex, json, beautiful soup, and requests. 
 
-I exclusively coded main.py and CPI.py.
+***I exclusively coded main.py and CPI.py.***
 
+### User Instruction
+1. Due to github's limits on file size, the code and the data must be downloaded separately. Please use this [link](https://drive.google.com/file/d/1dPc7BhG2KewUXLcJMNntwmmum2ZLm3A9/view?usp=sharing) to access our data.
+2. Extract all .csv files in career_data.zip into the same folder as all files in this repo.
+3. Install tabula for Python following [these](https://pypi.org/project/tabula-py/) instructions.
+4. Run main.py in any Python interpreter. Do not execute other .py files.
+   - Example of an input to enter when prompted for a Job title: ‘DATA ENGINEER’
+   - Example of an input to enter when prompted for a city: ‘Pittsburgh’
+   - Example of an input to enter when prompt for the city’s state: ‘PA’
 
 ### Data Sources
-1.	***Heinz Career Report:*** Heinz publishes report of career outcomes for each degree program as PDFs on their [website](https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics#msppm). 
+1.	**Heinz Career Report:** Heinz publishes report of career outcomes for each degree program as PDFs on their [website](https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics#msppm). 
 2.	**Employment Projection & Visa Sponsorship Data:** Employment projection is scraped from the Bureau of Labor Statistics [website](https://data.bls.gov/projections/occupationProj) using BeautifulSoup. Visa sponsorship data are LCA applications (.xlxs) downloaded from the U.S. Department of Labor’s [website](https://www.dol.gov/agencies/eta/foreign-labor/performance) then converted to (.csv) using Excel. 
 3.	**Consumer Price Index (Cost of Living data):** We query the public API of the Bureau of Labor Statistics, following their explicit instructions on their [website](https://www.bls.gov/developers/home.htm). 
 

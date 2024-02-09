@@ -9,7 +9,15 @@ The program gives the user three options:
 2.	Report employment projection estimate and visa sponsorship approval rates for a job title. 
 3.	Compare cost of living between 2 cities in the U.S. (to help students estimate relocation differences).
 
-I exclusively coded main.py and CPI.py
+All data extracted are cleaned and stored as pandas DataFrames in the program. For data sources that require long extraction time, we only need the user to extract the data once as their results will be saved as a .csv in the user’s laptop.
+
+The program used two special Python libraries:
+1.	Tabula: Used to extract tabular data from PDFs. 
+2.	Textdistance: Used to match the user’s inputted job titles with titles in the employment projection and visa sponsorship data if they are 40% similar (do not need to be exact).
+
+We also use common libraries such as pandas, regex, json, beautiful soup, and requests. 
+
+I exclusively coded main.py and CPI.py.
 
 
 ### Data Sources

@@ -17,7 +17,7 @@ The program used two special Python libraries:
 
 We also use common libraries such as pandas, regex, json, beautiful soup, and requests. 
 
-### Learning Reflection:
+### Learning Reflection
 I exclusively coded main.py and CPI.py. Through the project, I applied my knowledge of pandas and API querying to coding a simple program. I also practiced Pythonic coding and building a cohesive yet innovative program.
 
 ### User Instruction

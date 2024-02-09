@@ -11,6 +11,12 @@ The program gives the user three options:
 
 I exclusively coded main.py and CPI.py
 
+
+### Data Sources
+1.	***Heinz Career Report:*** Heinz publishes report of career outcomes for each degree program as PDFs on their [website](https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics#msppm). 
+2.	**Employment Projection & Visa Sponsorship Data:** Employment projection is scraped from the Bureau of Labor Statistics [website](https://data.bls.gov/projections/occupationProj) using BeautifulSoup. Visa sponsorship data are LCA applications (.xlxs) downloaded from the U.S. Department of Labor’s [website](https://www.dol.gov/agencies/eta/foreign-labor/performance) then converted to (.csv) using Excel. 
+3.	**Consumer Price Index (Cost of Living data):** We query the public API of the Bureau of Labor Statistics, following their explicit instructions on their [website](https://www.bls.gov/developers/home.htm). 
+
 ### Additional Notes
 1.	What are the CSVs and text files?
 -	2 years’ quarter-wise visa H1B visa data (LCA_Disclosure_Data_FYYYY_QN)
